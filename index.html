@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body  >
+    <div class = "main" id = "wrap">
+        <div >
+            <h1>Stop Watch</h1>
+        </div>
+        <div class="circle">
+            <div class="time">
+                <span id = "minute">00</span><span>:</span>
+                <span id = "second">00</span><span>:</span>
+                <span id = "msecond">00</span><br/>
+
+            </div>
+            
+            <button id = "start" onclick = "checkcorrect()">Start</button>
+            <button onclick = "stop()">Stop</button>
+            <button onclick = "reset()">Reset</button>
+        </div>
+            <h2>Records</h2>
+            <h4 id = "list"></h4>
+
+        
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
